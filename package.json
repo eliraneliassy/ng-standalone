@@ -1,0 +1,28 @@
+{
+  "name": "webpack-template-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "watch": "webpack --watch --config webpack.dev.js",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "private": true,
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "csv-loader": "^3.0.3",
+    "html-webpack-plugin": "^5.3.1",
+    "json5": "^2.2.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "toml": "^3.0.0",
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3",
+    "xml-loader": "^1.2.1",
+    "yamljs": "^0.3.0"
+  }
+}
