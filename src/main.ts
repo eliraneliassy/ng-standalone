@@ -5,7 +5,6 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { bootstrapComponent } from './standaloneShim';
 import { AppModule } from './app/app.module';
-import { BootstrappedStandaloneComponent } from './app/demo8/boostrappedStandalone.component';
 
 platformBrowserDynamic()
   .bootstrapModule(AppModule)
@@ -20,9 +19,4 @@ platformBrowserDynamic()
   })
   .catch((err) => console.error(err));
 
-// demo #9
-setTimeout(() =>
-  bootstrapComponent(BootstrappedStandaloneComponent).then(() => {
-    console.log('bootstrapped standalone component!');
-  })
-);
+

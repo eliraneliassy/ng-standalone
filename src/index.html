@@ -9,29 +9,9 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
-  <h1>RFC: standalone components, directives and pipes - demo</h1>
+  <h1>standalone components - demo</h1>
 
-  <p>
-    This is a simple demo project showing what a standalone
-    <code>@Component</code>, <code>@Directive</code>, and <code>@Pipe</code> in
-    Angular could look like in the future. This demo is based on the design
-    proposed in the
-    <a href="https://github.com/angular/angular/discussions/43784" target="_blank"
-    >RFC: standalone components, directives and pipes - making Angular’s
-      NgModules optional</a
-    >
-  </p>
-
-  <p>
-    Demo implementation notes: The demo is built by wrapping an existing
-    <code>@Component</code>, <code>@Directive</code>, and
-    <code>@Pipe</code> decorators and generating a hidden (virtual) NgModule. The
-    application, including the standalone entities, is then compiled using the JIT
-    compiler. This is <i>not</i> the intended implementation of the design
-    described in the RFC - it is a quick prototype enabling early experiments with
-    the new APIs.
-  </p>
-
+  
   <standalone-component-demo>loading...</standalone-component-demo>
 
     <noscript>Please enable JavaScript to continue using this application.</noscript>
