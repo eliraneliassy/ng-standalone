@@ -5,6 +5,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { bootstrapComponent } from './standaloneShim';
 import { AppModule } from './app/app.module';
+import { MyStandaloneComponent } from './app/standalone-component.component';
 
 platformBrowserDynamic()
   .bootstrapModule(AppModule)
@@ -18,5 +19,6 @@ platformBrowserDynamic()
     // Otherwise, log the boot error
   })
   .catch((err) => console.error(err));
+
 
 
