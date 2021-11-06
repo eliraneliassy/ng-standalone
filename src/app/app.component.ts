@@ -10,8 +10,6 @@ export class AppComponent {
   constructor(@Inject(ElementRef) private elementRef: ElementRef) {}
 
   ngOnInit() {
-    this.elementRef.nativeElement
-      .querySelector('#boostrappedStandaloneComponentPlaceholder')
-      .appendChild(document.createElement('bootstrapped-standalone-component'));
+    
   }
 }
